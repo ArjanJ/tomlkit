@@ -29,8 +29,9 @@ pytest-cov = "^4.0.0"
 PyYAML = "^6.0"
 pre-commit = "^2.20.0"
 mypy = "1.19.1"
-Sphinx = "^4.3.2"
-furo = "^2022.9.29"
+Sphinx = { version = "^4.3.2", python = ">=3.10" }
+furo = { version = "^2022.9.29", python = ">=3.10" }
+requests = { version = "^2.33.0", python = ">=3.10" }
 
 [tool.ruff.lint]
 extend-select = [
